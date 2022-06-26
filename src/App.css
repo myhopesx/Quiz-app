@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffc300;
+}
+
+.navbar {
+  background-color: #e07a5f;
+}
+
+.navbar .container-fluid a {
+  color: #f2cc8f;
+  font-family: "Fascinate", cursive;
+  font-size: 1.4rem;
+}
+
+.Home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-form {
+  margin-top: 2rem;
+  width: 50rem;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.info-form .myrow {
+  width: 100%;
+  padding: 2rem 4rem;
+}
+
+.intro-btn {
+  background-color: #f2542d;
+  padding: 0.5rem 2rem;
+  border: none;
+  font-family: sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+.container-fluid h1 {
+  font-size: 3.5rem;
+  padding: 1.6rem 0;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+.container-fluid h3 {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+}
+
+.select-diffuclity-div,
+.select-category-div,
+.NOQ,
+.name-div {
+  width: 40%;
+}
+
+.intro-btn {
+  margin-left: 18rem;
+  margin-bottom: 2rem;
+}
+
+.Home-container h1,
+.Home-container h6 {
+  font-family: "Indie Flower", cursive;
+}
+
+.Home-container h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.Home-container h6 {
+  font-size: 2rem;
+}
+
+.quiz {
+  margin-top: 10rem;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+}
+
+.question {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.question h5 {
+  padding: 1rem;
+}
+
+.answer {
+  padding-top: 1.3rem;
+  border-top: 1px solid lightgrey;
+  cursor: pointer;
+}
+
+.answer h6:hover {
+  color: blue;
+}
+
+.quiz h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+
+.result-btn {
+  align-items: center;
+  width: 30%;
+  margin: 0 auto;
+  background-color: #f2542d;
+  border: none;
+}
